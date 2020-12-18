@@ -1,0 +1,5 @@
+git install --save-dev @babel/cli @babel/core @babel/preset-env
+
+git install -D @babel/cli @babel/core @babel/preset-env
+
+npm run build
