@@ -323,7 +323,7 @@ mainvariabke(2,1);
 
 //promisess
 //immediatley resolved
-
+/*
 let mypromise = Promise.resolve("main")
 
 
@@ -333,16 +333,16 @@ var myPromise = new Promise(function( resolve, reject){
     setTimeout(() => resolve(4), 2000);
 
 
-})
-myPromise.then((res) =>{
+});
+myPromise.then((res) => {
 
     res +=3;
     console.log(res)
-})
+});
+
+*/
 
 
-
-/*
 function getData(method, url){
 
     return new Promise (function(resolve, reject){
@@ -383,4 +383,3 @@ let output
     console.log(err);
 });
 
-*/
